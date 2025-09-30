@@ -1,0 +1,35 @@
+DEX's to Support ? 
+- Orca 
+- Radium 
+- Meteora
+- Aldrin
+- Serum 
+- Saber 
+- Mercurial
+
+OnChain arbitrage limitations ? 
+- Searchers and validators can front-run transactions 
+- Transactions ordering can be manipulated 
+- Limited control over exectution timing 
+- compute units limitations for complex calculations
+- transaction size limits for mutli-hop trades 
+- Higher latency compared to off chain 
+
+For real world arbitrage ? 
+
+- We need to monitor off chain and calculations
+- Integrate with MEV aware infastructure to be safe from fast run
+- Consider validator relationships for better transaction placement
+- Implement proper slippage and risk management
+
+// Things to manage : 
+1. Slippage protection 
+   - Dyamic calculations
+   - max : 1%
+2. Transaction monitoring
+    - For tracking success rate 
+    - Gas price optimization
+    - Failed transaction
+3. Sizing a position
+    - based on liquidity available 
+    
