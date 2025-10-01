@@ -1,0 +1,152 @@
+{"$message_type":"diagnostic","message":"unknown start of token: \\u{2026}","code":null,"level":"error","spans":[{"file_name":"src/main.rs","byte_start":646,"byte_end":649,"line_start":24,"line_end":24,"column_start":39,"column_end":40,"is_primary":true,"text":[{"text":"            let text = msg.to_text()?;…","highlight_start":39,"highlight_end":40}],"label":null,"suggested_replacement":null,"suggestion_applicability":null,"expansion":null}],"children":[],"rendered":"\u001b[0m\u001b[1m\u001b[38;5;9merror\u001b[0m\u001b[0m\u001b[1m: unknown start of token: \\u{2026}\u001b[0m\n\u001b[0m  \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m--> \u001b[0m\u001b[0msrc/main.rs:24:39\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\n\u001b[0m\u001b[1m\u001b[38;5;12m24\u001b[0m\u001b[0m \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m \u001b[0m\u001b[0m            let text = msg.to_text()?;…\u001b[0m\n\u001b[0m   \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;12m|\u001b[0m\u001b[0m                                       \u001b[0m\u001b[0m\u001b[1m\u001b[38;5;9m^\u001b[0m\n\n"}
+2025-10-01T16:57:35.363Z INFO  [rustowlc::core] start borrowck of DefId(0:9 ~ price_monitor[b85d]::_)
+2025-10-01T16:57:35.366Z INFO  [rustowlc::core::analyze] facts of DefId(0:9 ~ price_monitor[b85d]::_) prepared; start analyze of DefId(0:9 ~ price_monitor[b85d]::_)
+2025-10-01T16:57:35.366Z INFO  [rustowlc::core] borrow checked: 1 / 25
+2025-10-01T16:57:35.366Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.367Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.368Z INFO  [rustowlc::core] start borrowck of DefId(0:48 ~ price_monitor[b85d]::_::{impl#0}::deserialize::FIELDS)
+2025-10-01T16:57:35.368Z INFO  [rustowlc::core::analyze] facts of DefId(0:48 ~ price_monitor[b85d]::_::{impl#0}::deserialize::FIELDS) prepared; start analyze of DefId(0:48 ~ price_monitor[b85d]::_::{impl#0}::deserialize::FIELDS)
+2025-10-01T16:57:35.368Z INFO  [rustowlc::core] borrow checked: 2 / 25
+2025-10-01T16:57:35.368Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.369Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.369Z INFO  [rustowlc::core] start borrowck of DefId(0:55 ~ price_monitor[b85d]::main::{closure#0}::_)
+2025-10-01T16:57:35.369Z INFO  [rustowlc::core::analyze] facts of DefId(0:55 ~ price_monitor[b85d]::main::{closure#0}::_) prepared; start analyze of DefId(0:55 ~ price_monitor[b85d]::main::{closure#0}::_)
+2025-10-01T16:57:35.369Z INFO  [rustowlc::core] borrow checked: 3 / 25
+2025-10-01T16:57:35.369Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.369Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.369Z INFO  [rustowlc::core] start borrowck of DefId(0:94 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::FIELDS)
+2025-10-01T16:57:35.369Z INFO  [rustowlc::core::analyze] facts of DefId(0:94 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::FIELDS) prepared; start analyze of DefId(0:94 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::FIELDS)
+2025-10-01T16:57:35.369Z INFO  [rustowlc::core] borrow checked: 4 / 25
+2025-10-01T16:57:35.369Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.369Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.407Z INFO  [rustowlc::core] start borrowck of DefId(0:13 ~ price_monitor[b85d]::_::{impl#0}::deserialize)
+2025-10-01T16:57:35.409Z INFO  [rustowlc::core::analyze] facts of DefId(0:13 ~ price_monitor[b85d]::_::{impl#0}::deserialize) prepared; start analyze of DefId(0:13 ~ price_monitor[b85d]::_::{impl#0}::deserialize)
+2025-10-01T16:57:35.409Z INFO  [rustowlc::core] borrow checked: 5 / 25
+2025-10-01T16:57:35.409Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.410Z INFO  [rustowlc::core] start borrowck of DefId(0:25 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#0}::expecting)
+2025-10-01T16:57:35.410Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.410Z INFO  [rustowlc::core::analyze] facts of DefId(0:25 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#0}::expecting) prepared; start analyze of DefId(0:25 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#0}::expecting)
+2025-10-01T16:57:35.410Z INFO  [rustowlc::core] borrow checked: 6 / 25
+2025-10-01T16:57:35.410Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.410Z INFO  [rustowlc::core] start borrowck of DefId(0:26 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#0}::visit_u64)
+2025-10-01T16:57:35.410Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.410Z INFO  [rustowlc::core::analyze] facts of DefId(0:26 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#0}::visit_u64) prepared; start analyze of DefId(0:26 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#0}::visit_u64)
+2025-10-01T16:57:35.410Z INFO  [rustowlc::core] borrow checked: 7 / 25
+2025-10-01T16:57:35.410Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.410Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.412Z INFO  [rustowlc::core] start borrowck of DefId(0:28 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#0}::visit_str)
+2025-10-01T16:57:35.412Z INFO  [rustowlc::core::analyze] facts of DefId(0:28 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#0}::visit_str) prepared; start analyze of DefId(0:28 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#0}::visit_str)
+2025-10-01T16:57:35.412Z INFO  [rustowlc::core] borrow checked: 8 / 25
+2025-10-01T16:57:35.412Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.412Z INFO  [rustowlc::core] start borrowck of DefId(0:30 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#0}::visit_bytes)
+2025-10-01T16:57:35.412Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.412Z INFO  [rustowlc::core::analyze] facts of DefId(0:30 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#0}::visit_bytes) prepared; start analyze of DefId(0:30 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#0}::visit_bytes)
+2025-10-01T16:57:35.412Z INFO  [rustowlc::core] borrow checked: 9 / 25
+2025-10-01T16:57:35.412Z INFO  [rustowlc::core] start borrowck of DefId(0:34 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#1}::deserialize)
+2025-10-01T16:57:35.412Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.412Z INFO  [rustowlc::core::analyze] facts of DefId(0:34 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#1}::deserialize) prepared; start analyze of DefId(0:34 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#1}::deserialize)
+2025-10-01T16:57:35.412Z INFO  [rustowlc::core] borrow checked: 10 / 25
+2025-10-01T16:57:35.412Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.412Z INFO  [rustowlc::core] start borrowck of DefId(0:43 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#2}::expecting)
+2025-10-01T16:57:35.412Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.413Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.413Z INFO  [rustowlc::core::analyze] facts of DefId(0:43 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#2}::expecting) prepared; start analyze of DefId(0:43 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#2}::expecting)
+2025-10-01T16:57:35.413Z INFO  [rustowlc::core] borrow checked: 11 / 25
+2025-10-01T16:57:35.413Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.413Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.414Z INFO  [rustowlc::core] start borrowck of DefId(0:44 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#2}::visit_seq)
+2025-10-01T16:57:35.416Z INFO  [rustowlc::core::analyze] facts of DefId(0:44 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#2}::visit_seq) prepared; start analyze of DefId(0:44 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#2}::visit_seq)
+2025-10-01T16:57:35.416Z INFO  [rustowlc::core] borrow checked: 12 / 25
+2025-10-01T16:57:35.416Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.417Z INFO  [rustowlc::core] start borrowck of DefId(0:46 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#2}::visit_map)
+2025-10-01T16:57:35.420Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.427Z INFO  [rustowlc::core::analyze] facts of DefId(0:46 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#2}::visit_map) prepared; start analyze of DefId(0:46 ~ price_monitor[b85d]::_::{impl#0}::deserialize::{impl#2}::visit_map)
+2025-10-01T16:57:35.428Z INFO  [rustowlc::core] borrow checked: 13 / 25
+2025-10-01T16:57:35.428Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.428Z INFO  [rustowlc::core] start borrowck of DefId(0:50 ~ price_monitor[b85d]::{impl#0}::fmt)
+2025-10-01T16:57:35.428Z INFO  [rustowlc::core::analyze] facts of DefId(0:50 ~ price_monitor[b85d]::{impl#0}::fmt) prepared; start analyze of DefId(0:50 ~ price_monitor[b85d]::{impl#0}::fmt)
+2025-10-01T16:57:35.428Z INFO  [rustowlc::core] borrow checked: 14 / 25
+2025-10-01T16:57:35.428Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.429Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.437Z INFO  [rustowlc::core] start borrowck of DefId(0:51 ~ price_monitor[b85d]::main)
+2025-10-01T16:57:35.437Z INFO  [rustowlc::core] start borrowck of DefId(0:52 ~ price_monitor[b85d]::main::{closure#0})
+2025-10-01T16:57:35.449Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.500Z INFO  [rustowlc::core::analyze] facts of DefId(0:52 ~ price_monitor[b85d]::main::{closure#0}) prepared; start analyze of DefId(0:52 ~ price_monitor[b85d]::main::{closure#0})
+2025-10-01T16:57:35.501Z INFO  [rustowlc::core] borrow checked: 15 / 25
+2025-10-01T16:57:35.501Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.502Z INFO  [rustowlc::core::analyze] facts of DefId(0:51 ~ price_monitor[b85d]::main) prepared; start analyze of DefId(0:51 ~ price_monitor[b85d]::main)
+2025-10-01T16:57:35.502Z INFO  [rustowlc::core] borrow checked: 16 / 25
+2025-10-01T16:57:35.502Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.503Z INFO  [rustowlc::core] start borrowck of DefId(0:59 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize)
+2025-10-01T16:57:35.503Z INFO  [rustowlc::core::analyze] facts of DefId(0:59 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize) prepared; start analyze of DefId(0:59 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize)
+2025-10-01T16:57:35.503Z INFO  [rustowlc::core] borrow checked: 17 / 25
+2025-10-01T16:57:35.503Z INFO  [rustowlc::core] start borrowck of DefId(0:71 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#0}::expecting)
+2025-10-01T16:57:35.503Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.503Z INFO  [rustowlc::core::analyze] facts of DefId(0:71 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#0}::expecting) prepared; start analyze of DefId(0:71 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#0}::expecting)
+2025-10-01T16:57:35.504Z INFO  [rustowlc::core] borrow checked: 18 / 25
+2025-10-01T16:57:35.504Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.504Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.504Z INFO  [rustowlc::core] start borrowck of DefId(0:72 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#0}::visit_u64)
+2025-10-01T16:57:35.504Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.504Z INFO  [rustowlc::core::analyze] facts of DefId(0:72 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#0}::visit_u64) prepared; start analyze of DefId(0:72 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#0}::visit_u64)
+2025-10-01T16:57:35.504Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.504Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.504Z INFO  [rustowlc::core] borrow checked: 19 / 25
+2025-10-01T16:57:35.504Z INFO  [rustowlc::core] start borrowck of DefId(0:74 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#0}::visit_str)
+2025-10-01T16:57:35.504Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core::analyze] facts of DefId(0:74 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#0}::visit_str) prepared; start analyze of DefId(0:74 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#0}::visit_str)
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core] borrow checked: 20 / 25
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core] start borrowck of DefId(0:76 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#0}::visit_bytes)
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core::analyze] facts of DefId(0:76 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#0}::visit_bytes) prepared; start analyze of DefId(0:76 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#0}::visit_bytes)
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core] borrow checked: 21 / 25
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core] start borrowck of DefId(0:80 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#1}::deserialize)
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core::analyze] facts of DefId(0:80 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#1}::deserialize) prepared; start analyze of DefId(0:80 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#1}::deserialize)
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core] borrow checked: 22 / 25
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core] start borrowck of DefId(0:89 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#2}::expecting)
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core::analyze] facts of DefId(0:89 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#2}::expecting) prepared; start analyze of DefId(0:89 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#2}::expecting)
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core] borrow checked: 23 / 25
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.505Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.506Z INFO  [rustowlc::core] start borrowck of DefId(0:90 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#2}::visit_seq)
+2025-10-01T16:57:35.506Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.507Z INFO  [rustowlc::core::analyze] facts of DefId(0:90 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#2}::visit_seq) prepared; start analyze of DefId(0:90 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#2}::visit_seq)
+2025-10-01T16:57:35.507Z INFO  [rustowlc::core] borrow checked: 24 / 25
+2025-10-01T16:57:35.507Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.508Z INFO  [rustowlc::core] start borrowck of DefId(0:92 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#2}::visit_map)
+2025-10-01T16:57:35.511Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.517Z INFO  [rustowlc::core::analyze] facts of DefId(0:92 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#2}::visit_map) prepared; start analyze of DefId(0:92 ~ price_monitor[b85d]::main::{closure#0}::_::{impl#0}::deserialize::{impl#2}::visit_map)
+2025-10-01T16:57:35.518Z INFO  [rustowlc::core] borrow checked: 25 / 25
+2025-10-01T16:57:35.518Z INFO  [rustowlc::core::analyze] start re-computing borrow check with dump: true
+2025-10-01T16:57:35.518Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.518Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.518Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.518Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.532Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.532Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.532Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.532Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.532Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.532Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.532Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.534Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.535Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.541Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.543Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.544Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.544Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.544Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.544Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.544Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.545Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.545Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.546Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.548Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.561Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+2025-10-01T16:57:35.606Z INFO  [rustowlc::core::analyze] borrow check finished
+2025-10-01T16:57:35.649Z INFO  [rustowlc::core] analyzed one item of /Users/subh/Desktop/code-playground/lucra/price-monitor/src/main.rs
+{"$message_type":"diagnostic","message":"aborting due to 1 previous error","code":null,"level":"error","spans":[],"children":[],"rendered":"\u001b[0m\u001b[1m\u001b[38;5;9merror\u001b[0m\u001b[0m\u001b[1m: aborting due to 1 previous error\u001b[0m\n\n"}
